@@ -1,0 +1,185 @@
+body{
+    position: relative;
+}
+@font-face{
+    font-family: "Savoye Let Plain";
+    src: url(/fonts/savoye.ttf);
+}
+@font-face{
+    font-family: "Book Antiqua";
+    src: url(/fonts/antiqua.ttf);
+}
+.main{
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    box-sizing: inherit;
+    margin: 0 auto;
+    padding-top: 80px;
+    background: url(/img/main-pic.png) no-repeat center;
+    background-size: cover;
+}
+.main-nav{
+    max-width: 100%;
+    height: 56px;
+    background-color: #561728;
+    opacity: 0.6;
+    border-top: 2px solid #f7efcb;
+    border-bottom: 2px solid #f7efcb;
+}
+.navs{
+    display: flex;
+    width: 1012px;
+    margin-left: 748px;
+    justify-content: space-between;
+}
+.nav-links{
+    width: 782px;
+    height: 39px;
+    font-family: "Savoye Let Plain";
+    font-size: 45px;
+    font-weight: 400;
+    text-align: justify;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #f7efcb;
+}
+.nav-items{
+    width: 176px;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    justify-content: space-between;
+    color: #f7efcb;
+    font-family: "Savoye Let Plain";
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+.logo{
+    position: absolute;
+    width: 427px;
+    height: 420px;
+    top: 10px;
+    left: 146px;
+    background: url(/img/logo.png) no-repeat center;
+    background-size: cover;
+    z-index: 10;
+}
+.communication{
+    width: 60px;
+    height: 237px;
+    margin-top: 165px;
+    margin-left: 50px;
+    background: url(/img/rectangle.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 14px;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+.main-cloud{
+    position: absolute;
+    width: 1742px;
+    height: 453px;
+    margin: 0 auto;
+    top: 280px;
+    z-index: 1;
+    left:50%;
+    transform:translate(-50%);
+}
+.main-description{
+    position: absolute;
+    box-sizing: border-box;
+    top: 370px;
+    max-width: 1000px;
+    z-index: 10;
+    left:50%;
+    transform:translate(-50%);
+}
+
+.desc-name{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desc-name img{
+    height: 5px;
+    width: 107px;
+    margin-top: 10px;
+}
+.desc-name div{
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.desc-culture{
+    color: #561728;
+    font-family: "Book Antiqua";
+    font-size: 47px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 41px;
+}
+.desc-production{
+    color: #561728;
+    font-family: "Book Antiqua";
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 55px;
+}
+.desc-about_link{
+    width: 237px;
+    height: 61px;
+    background: url(/img/about-link.png) no-repeat center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc-about_link a{
+    color: #f7efcb;
+    font-family: "Savoye Let Plain";
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-decoration: none;
+}
+.communication a:hover,
+.nav-links a:hover{
+    opacity: .8;
+    transform: scale(1.2);
+    transition: .3s;
+}
+.desc-about_link:hover{
+    transform: scale(1.05);
+    transition: .1s;
+}

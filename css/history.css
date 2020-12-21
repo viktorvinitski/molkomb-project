@@ -1,0 +1,44 @@
+.history{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 35px 60px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.history-desc{
+    display: flex;
+}
+.history-desc img{
+    height: 800px;
+    margin-top: 58px;
+}
+.history-name{
+    position: absolute;
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;   
+    left:51%;
+    transform:translate(-50%, 50%)
+}
+.history-name img{
+    width: 107px;
+    height: 5px;
+}
+.history-name div{
+    height: 59px;
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.history-name span{
+    color: white;
+}

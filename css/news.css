@@ -1,0 +1,116 @@
+.news{
+    padding: 0 46px;
+    max-width: 1920px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.news-name{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 0 auto;
+}
+.news-name div{
+    width: 280px;
+    height: 52px;
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.news-first,
+.news-second{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 34px;
+}
+.news-first{
+    justify-content: flex-end;
+}
+.news-first_desc{
+    padding-right: 95px;
+    max-width: 724px;
+}
+.news-second_desc{
+    padding-left: 98px;
+    max-width: 698px;
+    
+}
+.news-first_heading{
+    height: 59px;
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: right;
+    margin-top: 20px;
+}
+.news-first_text{
+    height: 138px;
+    color: #505050;
+    font-family: "Book Antiqua";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: right;
+    margin-top: 22px;
+}
+.news-first_date{
+    height: 17px;
+    color: #666666;
+    font-family: "Savoye Let Plain";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: right;
+    margin-top: 36px;
+}
+.news-second_heading{
+    height: 59px;
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 20px;
+}
+.news-second_text{
+    height: 138px;
+    color: #505050;
+    font-family: "Book Antiqua";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 22px;
+}
+.news-second_date{
+    height: 17px;
+    color: #666666;
+    font-family: "Savoye Let Plain";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 36px;
+}

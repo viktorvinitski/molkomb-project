@@ -1,0 +1,93 @@
+.prod{
+    max-width: 1920px;
+    display: flex;
+    padding: 35px 46px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.prod-name{
+    position: absolute;
+    width: 595px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;   
+    left:50%;
+    transform:translate(-50%, 100%)
+}
+.prod-name img{
+    width: 107px;
+    height: 5px;
+}
+.prod-name div{
+    height: 59px;
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.prod-pic{
+    flex: 6;
+    position: relative;
+}
+
+.prod-desc{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    flex: 6;
+}
+.desc-text{
+    display: flex;
+    margin: 177px auto 0 auto;
+    width: 715px;
+}
+.desc-text1,
+.desc-text2{
+    width: 325px;
+    color: #666666;
+    font-family: "Book Antiqua";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+}
+.desc-text2{
+    margin-left: 65px;
+}
+.prod-desc a{
+    width: 255px;
+    height: 45px;
+    color: #561728;
+    font-family: "Savoye Let Plain";
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 37px auto 45px auto;
+}
+.desc-links{
+    display: flex;
+    justify-content: space-between;
+    width: 307px;
+    margin: 0 auto;
+}
+.desc-links a{
+    margin: 0;
+    width: 32px;
+    height: 32px;
+}
+.desc-links a:hover{
+    opacity: .6;
+    transform: scale(1.3);
+    transition: .3s;
+}
